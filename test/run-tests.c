@@ -67,8 +67,8 @@ typedef BOOL (WINAPI *sCompareObjectHandles)(_In_ HANDLE, _In_ HANDLE);
 int main(int argc, char **argv) {
 #ifndef _WIN32
   if (0 == geteuid() && NULL == getenv("UV_RUN_AS_ROOT")) {
-    fprintf(stderr, "The libuv test suite cannot be run as root.\n");
-    return EXIT_FAILURE;
+    //fprintf(stderr, "The libuv test suite cannot be run as root.\n");
+    //return EXIT_FAILURE;
   }
 #endif
 

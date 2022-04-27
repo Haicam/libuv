@@ -43,7 +43,7 @@
 #include <fcntl.h>
 #include <time.h>
 
-#define HAVE_IFADDRS_H 1
+//#define HAVE_IFADDRS_H 1
 
 # if defined(__ANDROID_API__) && __ANDROID_API__ < 24
 # undef HAVE_IFADDRS_H
